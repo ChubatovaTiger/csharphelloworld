@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
-        <Target Name="CBA">
-        <Message Importance="high" Text="##teamcity[buildNumber 'ha']" />
-    </Target>
+<Target Name="VSTest" >
+    <Message Text="No tests because this is a sample project" />
+</Target>
 </Project>
