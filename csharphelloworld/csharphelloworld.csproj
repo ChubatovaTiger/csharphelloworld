@@ -4,5 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-
+    </Target>
+        <Target Name="CBA">
+        <Message Importance="high" Text="##teamcity[buildNumber 'ha']" />
+    </Target>
 </Project>
